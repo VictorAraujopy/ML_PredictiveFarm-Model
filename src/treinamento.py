@@ -47,3 +47,6 @@ print(f"Acurácia do modelo RandomForestClassifier: {accuracy:.4f}")
 
 jb.dump(model, "models/random_forest_model.pkl")
 print("Modelo salvo em 'models/random_forest_model.pkl'")
+
+jb.dump(scaler,"models/scaler.pkl")
+print("tradutor scaler salvo")
