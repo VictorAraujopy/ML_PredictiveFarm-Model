@@ -7,7 +7,7 @@ from sklearn.metrics import accuracy_score
 #teste
 # tranfere os dados do arquivo csv para um DataFrame
 df = pd.read_csv("data/Atividade_Cap10_produtos_agricolas.csv")
-
+print ("iniciando treinamento do modelo...")
 #separando features e labels
 X = df.drop("label", axis=1)
 y = df["label"]
